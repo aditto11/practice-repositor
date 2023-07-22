@@ -147,10 +147,46 @@ footer {
     background: var(--dark-01, #151414);
     width: 1600px;
     height: 577px;
+    display: flex;
+    gap: 300px;
+
+    padding: 130px 200px;
 }
 
 .footer-title {
     color: #F8F8F8;
     font-size: 45px;
     font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+input {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px 50px 21px 21px;
+    background-color: #151414;
+}
+
+
+.form-btn {
+    margin-top: 18px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px ;
 }
